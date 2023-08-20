@@ -1,0 +1,52 @@
+.header__container{
+    width: 100%;
+    padding: 10px 20px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+
+}
+.header__container .my_details{
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header__container button{
+   width: 150px;
+   height: 50px;
+   background: transparent;
+   color: whitesmoke;
+   cursor: pointer;
+   outline: none;
+   border: 1px solid rgb(28, 86, 109);
+   margin: 10px;
+   border-radius: 5px;
+}
+
+.header__container button:hover{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    color: rgb(28, 86, 109);
+    margin: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    transition: linear 1s;
+ }
+
+ .header__container .talk_btn{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    color: whitesmoke;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:rgb(28, 86, 109);;
+    transition: linear 1s;
+ }
