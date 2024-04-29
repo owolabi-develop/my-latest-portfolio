@@ -6,7 +6,7 @@
 .experience__container > div {
   padding: 2.4rem 5rem;
   border-radius: 2rem;
-  border: 1px solid rgba(77, 181, 255, 0.4);
+ 
   transition: var(--transition);
 }
 .experience__container > div:hover {

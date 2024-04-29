@@ -11,9 +11,6 @@ const SocialLinks =()=>{
         <a href="https://github.com/owolabi-develop" target="_blank">
           <FaGithub className="social_icon" />
         </a>
-        <a href="https://dribble.com" target="_blank">
-          <FiDribbble className="social_icon" />
-        </a>
         </div>
     )
 }

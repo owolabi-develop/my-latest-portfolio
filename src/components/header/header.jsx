@@ -9,7 +9,7 @@ const Header = ()=>{
             <div className="my_details">
                 <p>I am</p>
                 <h1>Owolabi Akintan</h1>
-                <p>Fullstack Developer</p>
+                <p>Fullstack Developer Data Engineer</p>
             </div>
             <button className="cv_bnts">Download CV</button>  <a href="#contact"><button className="talk_btn">Let's Talk</button></a>
 

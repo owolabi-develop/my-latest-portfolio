@@ -15,21 +15,21 @@ const Nav = ()=>{
           className={state.active == "#" ? "active" : ""}
           href="#"
         >
-          <AiOutlineHome />
+       <AiOutlineHome />
         </a>
         <a
           onClick={() => setState({ active: "#about" })}
           className={state.active == "#about" ? "active" : ""}
           href="#about"
         >
-          <AiOutlineUser />
+        <AiOutlineUser />
         </a>
         <a
           onClick={() => setState({ active: "#experience" })}
           className={state.active == "#experience" ? "active" : ""}
           href="#experience"
         >
-          <BiBook />
+        <BiBook />
         </a>
         <a
           onClick={() =>setState({ active: "#services" })}

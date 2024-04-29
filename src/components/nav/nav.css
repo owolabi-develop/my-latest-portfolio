@@ -1,30 +1,55 @@
 nav {
     background: rgba(0, 0, 0, 0.3);
-    width: max-content;
-    padding: 0.7rem 1.7rem;
+    width:100%;
+    padding: 0.7rem 20rem;
     z-index: 2;
-    position: fixed;
-    bottom: 2rem;
-    left: calc(50%);
-    transform: translateX(-50%);
     display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
+    gap: 10rem;
     backdrop-filter: blur(15px);
+    position: fixed;
   }
   nav a {
     background: transparent;
     padding: 0.8rem;
-    border-radius: 50%;
+    border-radius: 10px;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
   }
   nav a:hover {
-    background: rgba(0, 0, 0, 0.3);
+    background: whitesmoke;
+    transition: 1s linear;
   }
   nav a.active {
-    background: var(--color-primary);
-    color: var(--color-bg);
+    background: whitesmoke;
+    color:black;
+  }
+  
+  /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
+  
+  @media screen and (max-width: 1024px) {
+    nav {
+      background: rgba(0, 0, 0, 0.3);
+      width:100%;
+      padding: 0.7rem 20rem;
+      z-index: 2;
+      display: flex;
+      gap: 10rem;
+      backdrop-filter: blur(15px);
+      position: fixed;
+    }
+  }
+  /* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
+  @media screen and (max-width: 600px) {
+    nav {
+      background: rgba(0, 0, 0, 0.3);
+      width:10%;
+      padding: 0.7rem 1rem;
+      z-index: 2;
+      display: flex;
+      gap: 6rem;
+      backdrop-filter: blur(15px);
+      position: fixed;
+    }
   }
   

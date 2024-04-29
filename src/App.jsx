@@ -40,8 +40,8 @@ const particlesLoaded = useCallback(async container => {
                 interactivity: {
                     events: {
                         onClick: {
-                            enable: true,
-                            mode: "push",
+                            enable: false,
+                            mode: "",
                         },
                         onHover: {
                             enable: true,
@@ -100,9 +100,10 @@ const particlesLoaded = useCallback(async container => {
                 detectRetina: true,
             }}
         />
+    <Nav />
       <SocialLinks />
       <Header/>
-      <Nav />
+     
       <AboutME />
       <Skills />
       <Services/>
