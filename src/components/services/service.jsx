@@ -10,7 +10,7 @@ const Services =()=>{
 
         <article className="service">
             <div className="service__head">
-              <h3>Data Engineering</h3>
+              <h3>Data Engineering and AI</h3>
             </div>
             <ul className="service__list">
               <li>

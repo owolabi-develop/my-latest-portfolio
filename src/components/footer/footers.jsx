@@ -12,7 +12,7 @@ import {
     return(
         <footer>
         <a href="#" className="footer__logo">
-         FullStack Developer Data Engineer
+         FullStack Developer Data Engineer and AI
         </a>
         <ul className="permalinks">
           <li>

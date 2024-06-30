@@ -25,6 +25,8 @@ import project3 from '../../assets/images/project4.png'
 
 import project4 from '../../assets/images/project3.png'
 
+import chatbotui from '../../assets/images/chatbotui.jpg'
+
 
 
 
@@ -123,6 +125,15 @@ const data = [
       github: "https://github.com/owolabi-develop/linkedIn-similar-api",
       demo: "https://inext.dev"
     },
+
+    {
+      id: 13,
+      image: chatbotui,
+      title: "Advance rag chatbot that allow use to upload and chat any document such as pdf,word, and txt with python javascript and langchain framework,llm and openai",
+      github: "https://github.com/owolabi-develop/chat-pdf.git",
+      demo: "https://github.com/owolabi-develop/chat-pdf.git"
+    },
+    
     
   ];
 
