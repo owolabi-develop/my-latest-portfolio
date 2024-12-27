@@ -1,26 +1,58 @@
 import "./services.css"
 import { BiCheck } from "react-icons/bi";
-import { Zoom } from "react-awesome-reveal";
 const Services =()=>{
     return (
-      <Zoom>
+    
         <section id="services">
         <h2>My Services</h2>
         <div className="container services__container">
 
+
         <article className="service">
             <div className="service__head">
-              <h3>Data Engineering and AI</h3>
+              <h3>AI application development</h3>
             </div>
             <ul className="service__list">
+  
+
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>End to end Pipline</p>
+                <p>RAG (Retrieval-Augmented Generation) Systems</p>
               </li>
+
+              
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Automation and testing</p>
+                <p>Embedding-Powered Search and Recommendations</p>
               </li>
+
+
+              
+              <li>
+                <BiCheck className="service__list-icon" />
+                <p>Data Preparation and Integration</p>
+              </li>
+
+              <li>
+                <BiCheck className="service__list-icon" />
+                <p>Prompt Engineering & Optimization</p>
+              </li>
+
+              <li>
+                <BiCheck className="service__list-icon" />
+                <p> Generative AI Integrations</p>
+              </li>
+
+             
+            </ul>
+          </article>
+
+        <article className="service">
+            <div className="service__head">
+              <h3>Data Engineering</h3>
+            </div>
+            <ul className="service__list">
+  
 
               <li>
                 <BiCheck className="service__list-icon" />
@@ -37,10 +69,6 @@ const Services =()=>{
                 <p>data modeling and warehousing</p>
               </li>
 
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Data visualization</p>
-              </li>
              
             </ul>
           </article>
@@ -76,16 +104,11 @@ const Services =()=>{
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Fulstack Django application</p>
+                <p>Fullstack Django application</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
                 <p>Hosting</p>
-              </li>
-
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Chatbot Developement</p>
               </li>
             
             </ul>
@@ -93,7 +116,7 @@ const Services =()=>{
          
         </div>
       </section>
-      </Zoom>
+
     )
 }
 export default Services
