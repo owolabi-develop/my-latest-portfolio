@@ -35,9 +35,7 @@ const AboutME = ()=>{
               </article>
             </div>
             <p>
-            I am a skilled Full Stack Python Web Developer, Data Engineer, and Generative AI Developer with 5
-             years of experience delivering innovative, scalable, and high-quality solutions.
-             I specialize in leveraging cutting-edge technologies to solve complex problems and drive business growth.
+            Innovative backend Developer with over 5 years of experience in designing scalable solutions and developing cutting-edge applications. Proficient in Python, backend development, API design and development with proven ability in enhancing system performance and scalability. Passionate about building scalable systems.
             </p>
             <a href="#contact" className="btn btn-primary">
               Lets Talk

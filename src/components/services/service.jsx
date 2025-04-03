@@ -47,31 +47,6 @@ const Services =()=>{
             </ul>
           </article>
 
-        <article className="service">
-            <div className="service__head">
-              <h3>Data Engineering</h3>
-            </div>
-            <ul className="service__list">
-  
-
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Data Migration</p>
-              </li>
-
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Etl Developement</p>
-              </li>
-
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>data modeling and warehousing</p>
-              </li>
-
-             
-            </ul>
-          </article>
           
           <article className="service">
             <div className="service__head">
@@ -84,7 +59,7 @@ const Services =()=>{
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Api testing</p>
+                <p>FastApi</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />

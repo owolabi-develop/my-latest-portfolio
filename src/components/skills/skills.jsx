@@ -32,14 +32,6 @@ const Skills = () =>{
                 </div>
               </article>
 
-              <article className="experience__details">
-                
-                <div>
-                  <h4>AI Plugin or Tool Development</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-             
              
              
               <article className="experience__details">
@@ -61,9 +53,8 @@ const Skills = () =>{
                 
                 <div>
                   <h4>LLms</h4>
-                  <p>Openai</p>
-                  <p>google gemini</p>
-                  <p>cohere</p>
+                  <pre>Openai, google-gemini, cohere </pre>
+
                   <small className="text-light">Advance</small>
                 </div>
               </article>
@@ -73,10 +64,8 @@ const Skills = () =>{
                 
                 <div>
                   <h4>Vector database</h4>
-                  <p>Pinecone</p>
-                  <p>Weaviate</p>
-                  <p>SingleStore</p>
-                  <p>Chroma</p>
+                  <pre>Pinecone, SupaBase, Chroma, Pgvector </pre>
+                
                   <small className="text-light">Advance</small>
                 </div>
               </article>
@@ -151,6 +140,7 @@ const Skills = () =>{
                   <small className="text-light">Advance</small>
                 </div>
               </article>
+
               <article className="experience__details">
                
                 <div>
@@ -175,98 +165,24 @@ const Skills = () =>{
               <article className="experience__details">
                
                 <div>
-                  <h4>Web Scrapping</h4>
+                  <h4>FastAPI</h4>
                   <small className="text-light">Advance</small>
+                </div>
+              </article>
+
+
+              <article className="experience__details">
+               
+                <div>
+                  <h4>Nodejs</h4>
+                  <small className="text-light">Experience</small>
                 </div>
               </article>
             </div>
             
           </div>
 
-          <div className="experience__frontend">
-            <h3>Data Engineer</h3>
-            <div className="experience__content">
-              <article className="experience__details">
-                <div>
-                  <h4>Data extraction & data migration</h4>
-                  <small className="text-light">Advance</small>
-                </div>
-              </article>
-              <article className="experience__details">
-               
-                <div>
-                  <h4>Docker</h4>
-                  <small className="text-light">Advandced</small>
-                </div>
-              </article>
-              <article className="experience__details">
-               
-                <div>
-                  <h4>Data ingestion & etl elt Pipeline</h4>
-                  <small className="text-light">Advandced</small>
-                </div>
-              </article>
-             
-             
-              <article className="experience__details">
-                <div>
-                  <h4>Bash scripting</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-
-              <article className="experience__details">
-                <div>
-                  <h4>Airflow</h4>
-                  <small className="text-light">Advance</small>
-                </div>
-              </article>
-
-
-              <article className="experience__details">
-                <div>
-                  <h4>Sql and NoSQL databases</h4>
-                  <small className="text-light">Advance</small>
-                </div>
-              </article>
-
-              <article className="experience__details">
-                <div>
-                  <h4>• Big data technologies (e.g. spark)</h4>
-                  <small className="text-light">Advance</small>
-                </div>
-              </article>
-
-              <article className="experience__details">
-                <div>
-                  <h4>Data warehousing & management (snowflake, Aws redshift)</h4>
-                  <small className="text-light">Advance</small>
-                </div>
-              </article>
-
-              <article className="experience__details">
-                <div>
-                  <h4>Apache Kafka</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-
-              <article className="experience__details">
-                <div>
-                  <h4>Dbt</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-
-              <article className="experience__details">
-                <div>
-                  <h4>Cloud computing platforms (e.g., AWS, Snowflake)</h4>
-                  <small className="text-light">Advance</small>
-                </div>
-              </article>
-             
-            </div>
-          </div>
+         
 
         </div>
       </section>
