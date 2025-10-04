@@ -12,7 +12,7 @@ import {
     return(
         <footer>
         <a href="#" className="footer__logo">
-        Expert Backend Developer and Generative AI Specialist
+        Expert Python Developer and Generative AI Specialist
         </a>
         <ul className="permalinks">
           <li>

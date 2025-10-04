@@ -3,6 +3,9 @@ import bloApi from '../../assets/images/blogApi.jpg'
 import ecommarceApi from '../../assets/images/ecommarceApi.jpg'
 import jobapi from '../../assets/images/jobapi.jpg'
 import careerportal_swag from '../../assets/images/careerportal_swag.jpg'
+import zander_estimate from '../../assets/images/zander_estimate.jpg'
+import claimpilot from '../../assets/images/claimpilot.jpg'
+
 import propertySearch from '../../assets/images/aws_digram_project2.png'
 import covid19 from '../../assets/images/aws_digram_project1.png'
 
@@ -47,14 +50,30 @@ const data = [
     demo: "https://culture-lancer.vercel.app/"
   },
   
-    // {
+    {
+      id: 2,
+      image:  zander_estimate,
+      title: "Zander estimate  an ai powered roof claim insurance processing application",
+      github: "https://github.com/ContextData/zander_estimates",
+      demo: "https://github.com/ContextData/zander_estimates"
+    },
+
+    {
+      id: 2,
+      image: claimpilot,
+      title: "Claimspilot an Ai powered property insurance claim processing application",
+      github: "https://claimspilot.contextdata.dev/dashboard/",
+      demo: "https://claimspilot.contextdata.dev/dashboard/"
+    },
+
+
+     // {
     //   id: 2,
     //   image:  propertySearch,
     //   title: "Aws real-time property-search-pipline cdk!",
     //   github: "https://github.com/owolabi-develop/aws-real-time-property-search-pipline_cdk.git",
     //   demo: "https://github.com/owolabi-develop/aws-real-time-property-search-pipline_cdk.git"
     // },
-
 
     // {
     //   id: 3,
